@@ -2,14 +2,14 @@
 
 class Stock:
     def __init__(self, symbol, company_name):
-        self._symbol = symbol
-        self._company_name = company_name
+        self.__symbol = symbol
+        self.__company_name = company_name
     
     def return_symbol (self):
-        return (self._symbol)
+        return (self.__symbol)
     
     def return_company_name(self):
-        return (self._company_name)
+        return (self.__company_name)
 
 def stock_purchase_history ():
     stock_history = {}

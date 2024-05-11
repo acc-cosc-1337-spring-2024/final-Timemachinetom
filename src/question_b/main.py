@@ -1,4 +1,3 @@
-#add import
 import question_b
 from question_b import Stock
 
